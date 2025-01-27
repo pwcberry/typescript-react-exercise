@@ -33,7 +33,10 @@ const reducer = (state: MetricEvent[], action: ReducerAction) => {
 };
 
 function App() {
+    // The reduce will keep track of prior events
     const [seriesState, dispatch] = useReducer(reducer, [DEFAULT_EVENT]);
+
+    // This will help to re-render the UI when there is another event
     const [metricEvent, setMetricEvent] = useState<MetricEvent>(DEFAULT_EVENT);
 
     useEffect(() => {
