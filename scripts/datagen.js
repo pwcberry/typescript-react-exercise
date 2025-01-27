@@ -4,9 +4,10 @@
  *
  * Input: Number of events to generate; default is 10.
  */
-import fs from 'node:fs';
-import path from 'node:path';
-import { argv } from 'node:process';
+import fs from "node:fs";
+import path from "node:path";
+import { argv } from "node:process";
+import { addDays, formatISO } from "date-fns";
 
 const DEST_FILE = path.join(import.meta.dirname, "../src/data/live-stream.json");
 
@@ -26,15 +27,18 @@ if (argv.length === 3) {
 }
 
 const result = [];
+const startDate = addDays(new Date(), -10);
+startDate.setHours(0, 0 , 0);
 
 for (let i = 0; i < MAX_EVENTS; i++) {
     result.push({
-        visitors: getRandomInt(100, 20),
-        sales: getRandomInt(1000, 50),
-        conversionRate: getRandomPercentage(0.005, 0.15),
+        visitors: getRandomInt(200, 40),
+        sales: getRandomInt(1001, 100),
+        conversionRate: getRandomPercentage(0.005, 0.2),
+        dateStamp: formatISO(addDays(startDate, i), { representation: "date" }),
     });
 }
 
 fs.writeFileSync(DEST_FILE, JSON.stringify(result, null, 2));
 
-console.log('Data generated.');
+console.log("Data generated.");

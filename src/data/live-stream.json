@@ -1,52 +1,182 @@
 [
   {
-    "visitors": 85,
-    "sales": 629,
-    "conversionRate": 0.13045001237940634
+    "visitors": 69,
+    "sales": 169,
+    "conversionRate": 0.13011977292516508,
+    "dateStamp": "2025-01-17"
   },
   {
-    "visitors": 83,
-    "sales": 298,
-    "conversionRate": 0.117620608496799
+    "visitors": 57,
+    "sales": 456,
+    "conversionRate": 0.1952224116532455,
+    "dateStamp": "2025-01-18"
+  },
+  {
+    "visitors": 191,
+    "sales": 720,
+    "conversionRate": 0.1451898394362705,
+    "dateStamp": "2025-01-19"
+  },
+  {
+    "visitors": 147,
+    "sales": 975,
+    "conversionRate": 0.12454439926174676,
+    "dateStamp": "2025-01-20"
+  },
+  {
+    "visitors": 107,
+    "sales": 144,
+    "conversionRate": 0.026268019812344834,
+    "dateStamp": "2025-01-21"
+  },
+  {
+    "visitors": 126,
+    "sales": 420,
+    "conversionRate": 0.1751987613122683,
+    "dateStamp": "2025-01-22"
+  },
+  {
+    "visitors": 65,
+    "sales": 567,
+    "conversionRate": 0.076092846122503,
+    "dateStamp": "2025-01-23"
+  },
+  {
+    "visitors": 103,
+    "sales": 775,
+    "conversionRate": 0.173648155036624,
+    "dateStamp": "2025-01-24"
+  },
+  {
+    "visitors": 85,
+    "sales": 192,
+    "conversionRate": 0.1231954592297857,
+    "dateStamp": "2025-01-25"
+  },
+  {
+    "visitors": 96,
+    "sales": 545,
+    "conversionRate": 0.19509135752003015,
+    "dateStamp": "2025-01-26"
+  },
+  {
+    "visitors": 193,
+    "sales": 554,
+    "conversionRate": 0.08878080643791675,
+    "dateStamp": "2025-01-27"
+  },
+  {
+    "visitors": 141,
+    "sales": 898,
+    "conversionRate": 0.05103848764639429,
+    "dateStamp": "2025-01-28"
+  },
+  {
+    "visitors": 149,
+    "sales": 140,
+    "conversionRate": 0.1924680804394614,
+    "dateStamp": "2025-01-29"
+  },
+  {
+    "visitors": 184,
+    "sales": 504,
+    "conversionRate": 0.102047782589471,
+    "dateStamp": "2025-01-30"
+  },
+  {
+    "visitors": 97,
+    "sales": 402,
+    "conversionRate": 0.056724909282132474,
+    "dateStamp": "2025-01-31"
+  },
+  {
+    "visitors": 121,
+    "sales": 938,
+    "conversionRate": 0.14916093798279562,
+    "dateStamp": "2025-02-01"
+  },
+  {
+    "visitors": 180,
+    "sales": 343,
+    "conversionRate": 0.021127298663232486,
+    "dateStamp": "2025-02-02"
+  },
+  {
+    "visitors": 76,
+    "sales": 392,
+    "conversionRate": 0.1194146695843219,
+    "dateStamp": "2025-02-03"
+  },
+  {
+    "visitors": 133,
+    "sales": 857,
+    "conversionRate": 0.0227127939714864,
+    "dateStamp": "2025-02-04"
   },
   {
     "visitors": 55,
-    "sales": 136,
-    "conversionRate": 0.13452166313441904
+    "sales": 436,
+    "conversionRate": 0.12333981329179333,
+    "dateStamp": "2025-02-05"
   },
   {
-    "visitors": 60,
-    "sales": 678,
-    "conversionRate": 0.04287581089802872
+    "visitors": 105,
+    "sales": 211,
+    "conversionRate": 0.04683586193894529,
+    "dateStamp": "2025-02-06"
   },
   {
-    "visitors": 35,
-    "sales": 889,
-    "conversionRate": 0.06076191603229142
+    "visitors": 173,
+    "sales": 126,
+    "conversionRate": 0.17390301035555766,
+    "dateStamp": "2025-02-07"
   },
   {
-    "visitors": 50,
-    "sales": 613,
-    "conversionRate": 0.047612264750770406
+    "visitors": 181,
+    "sales": 238,
+    "conversionRate": 0.007752821452771341,
+    "dateStamp": "2025-02-08"
   },
   {
-    "visitors": 31,
-    "sales": 500,
-    "conversionRate": 0.016737561223423736
+    "visitors": 152,
+    "sales": 234,
+    "conversionRate": 0.13413528148613096,
+    "dateStamp": "2025-02-09"
   },
   {
-    "visitors": 37,
-    "sales": 98,
-    "conversionRate": 0.10124541087338113
+    "visitors": 56,
+    "sales": 379,
+    "conversionRate": 0.12617772265265415,
+    "dateStamp": "2025-02-10"
   },
   {
-    "visitors": 53,
-    "sales": 118,
-    "conversionRate": 0.023932739502741995
+    "visitors": 166,
+    "sales": 580,
+    "conversionRate": 0.07235432515213036,
+    "dateStamp": "2025-02-11"
   },
   {
-    "visitors": 42,
-    "sales": 699,
-    "conversionRate": 0.013940110573496423
+    "visitors": 171,
+    "sales": 800,
+    "conversionRate": 0.08430254578493845,
+    "dateStamp": "2025-02-12"
+  },
+  {
+    "visitors": 79,
+    "sales": 729,
+    "conversionRate": 0.12638251477362084,
+    "dateStamp": "2025-02-13"
+  },
+  {
+    "visitors": 51,
+    "sales": 720,
+    "conversionRate": 0.05167000388608489,
+    "dateStamp": "2025-02-14"
+  },
+  {
+    "visitors": 130,
+    "sales": 117,
+    "conversionRate": 0.06199120172006434,
+    "dateStamp": "2025-02-15"
   }
 ]
