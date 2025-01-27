@@ -1,102 +1,102 @@
 [
   {
-    "visitors": 175,
-    "sales": 1004,
-    "conversionRate": 0.14721435034662722
+    "visitors": 147,
+    "sales": 986,
+    "conversionRate": 0.15697906422139773
   },
   {
-    "visitors": 189,
-    "sales": 296,
-    "conversionRate": 0.05494891315231398
-  },
-  {
-    "visitors": 174,
-    "sales": 1169,
-    "conversionRate": 0.2402510856172091
-  },
-  {
-    "visitors": 148,
-    "sales": 298,
-    "conversionRate": 0.10883874880498245
-  },
-  {
-    "visitors": 200,
-    "sales": 1218,
-    "conversionRate": 0.10301413087293776
-  },
-  {
-    "visitors": 113,
-    "sales": 641,
-    "conversionRate": 0.15660168563808408
-  },
-  {
-    "visitors": 166,
-    "sales": 720,
-    "conversionRate": 0.1796875587511717
-  },
-  {
-    "visitors": 176,
-    "sales": 411,
-    "conversionRate": 0.2425766368974518
-  },
-  {
-    "visitors": 119,
-    "sales": 867,
-    "conversionRate": 0.11572542000160557
-  },
-  {
-    "visitors": 113,
-    "sales": 779,
-    "conversionRate": 0.06308734077466993
-  },
-  {
-    "visitors": 78,
-    "sales": 764,
-    "conversionRate": 0.03980935664835572
-  },
-  {
-    "visitors": 149,
-    "sales": 831,
-    "conversionRate": 0.03463232321016796
-  },
-  {
-    "visitors": 143,
-    "sales": 783,
-    "conversionRate": 0.006864503259823129
-  },
-  {
-    "visitors": 98,
-    "sales": 489,
-    "conversionRate": 0.15971101435155655
-  },
-  {
-    "visitors": 177,
-    "sales": 1231,
-    "conversionRate": 0.16628776459043038
-  },
-  {
-    "visitors": 75,
-    "sales": 746,
-    "conversionRate": 0.22165540598383626
+    "visitors": 110,
+    "sales": 1381,
+    "conversionRate": 0.06553728735283837
   },
   {
     "visitors": 70,
-    "sales": 135,
-    "conversionRate": 0.24170999918334557
+    "sales": 698,
+    "conversionRate": 0.11606849539252484
   },
   {
-    "visitors": 75,
-    "sales": 349,
-    "conversionRate": 0.09017782358363968
+    "visitors": 148,
+    "sales": 1372,
+    "conversionRate": 0.12506060975969935
   },
   {
-    "visitors": 171,
-    "sales": 449,
-    "conversionRate": 0.14252109778987743
+    "visitors": 134,
+    "sales": 888,
+    "conversionRate": 0.013021361706787138
   },
   {
-    "visitors": 105,
+    "visitors": 159,
+    "sales": 565,
+    "conversionRate": 0.10581734708049084
+  },
+  {
+    "visitors": 106,
+    "sales": 216,
+    "conversionRate": 0.2173790749699258
+  },
+  {
+    "visitors": 172,
+    "sales": 335,
+    "conversionRate": 0.0340612413529755
+  },
+  {
+    "visitors": 76,
+    "sales": 1014,
+    "conversionRate": 0.022558159693504276
+  },
+  {
+    "visitors": 123,
+    "sales": 452,
+    "conversionRate": 0.1904689959058823
+  },
+  {
+    "visitors": 162,
+    "sales": 239,
+    "conversionRate": 0.02911527605520625
+  },
+  {
+    "visitors": 143,
+    "sales": 281,
+    "conversionRate": 0.14564521268085207
+  },
+  {
+    "visitors": 172,
+    "sales": 719,
+    "conversionRate": 0.11753242082006987
+  },
+  {
+    "visitors": 197,
+    "sales": 106,
+    "conversionRate": 0.026891734463926564
+  },
+  {
+    "visitors": 174,
+    "sales": 137,
+    "conversionRate": 0.16351510803128333
+  },
+  {
+    "visitors": 115,
+    "sales": 527,
+    "conversionRate": 0.12880486947971836
+  },
+  {
+    "visitors": 50,
     "sales": 458,
-    "conversionRate": 0.0490131452941287
+    "conversionRate": 0.19635724560066903
+  },
+  {
+    "visitors": 74,
+    "sales": 905,
+    "conversionRate": 0.022351645183007696
+  },
+  {
+    "visitors": 198,
+    "sales": 447,
+    "conversionRate": 0.07822377254518842
+  },
+  {
+    "visitors": 60,
+    "sales": 234,
+    "conversionRate": 0.1777774274126389
   }
 ]

@@ -1,5 +1,5 @@
 import React from "react";
-import {Margin} from "../types.ts";
+import {Margin} from "../types";
 import {formatPercent} from "../utils";
 import Icon from "./Icon.tsx";
 

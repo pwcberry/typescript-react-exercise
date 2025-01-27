@@ -2,7 +2,7 @@ import "@testing-library/jest-dom";
 import {render } from "@testing-library/react";
 import {describe, expect, it} from "vitest";
 import MarginView from "./MarginView";
-import { Margin } from "../types.ts";
+import { Margin } from "../types";
 
 describe("MarginView", () => {
     describe("when margin is positive", () => {

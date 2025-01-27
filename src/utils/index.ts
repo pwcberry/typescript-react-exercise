@@ -1,4 +1,4 @@
-import {Margin} from "../types.ts";
+import {Margin} from "../types";
 
 const percentageFormatter = new Intl.NumberFormat("en", {
     style: "percent",

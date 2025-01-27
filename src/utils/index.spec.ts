@@ -1,5 +1,5 @@
 import {describe, expect, it} from "vitest";
-import {formatCurrency, formatPercent, getMargin} from "./index.ts";
+import {formatCurrency, formatPercent, getMargin} from "./index";
 
 describe("utils", () => {
     describe("getMargin", () => {
