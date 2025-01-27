@@ -44,7 +44,7 @@ function App() {
                     <img src={logo} className="logo" alt="Vite logo"/>
                 </a>
                 <h1 className="text-3xl font-bold">Real-time Analytics Dashboard</h1>
-                <span className="text-green-400 ml-auto"><Icon id="pulse" className="icon-inline icon-sm"/>{"Connected"}</span>
+                <span className="text-green-400 ml-auto"><Icon id="pulse" className="icon-inline icon-sm mb-1 mr-0.5"/>{"Connected"}</span>
             </header>
             <MetricPanel value={metricEvent.visitors} previousValue={previousEvent.visitors} title="Visitors"/>
             <MetricPanel value={metricEvent.sales} previousValue={previousEvent.sales} displayType="currency" title="Sales"/>
