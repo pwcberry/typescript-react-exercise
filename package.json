@@ -10,7 +10,7 @@
     "lint:fix": "eslint src/ --fix",
     "preview": "vite preview",
     "test": "vitest run",
-    "generate": "node ./scripts/datagen.js"
+    "generate": "node ./scripts/datagen.js 20"
   },
   "dependencies": {
     "react": "^18.2.0",

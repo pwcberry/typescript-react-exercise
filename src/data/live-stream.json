@@ -1,52 +1,102 @@
 [
   {
-    "visitors": 85,
-    "sales": 629,
-    "conversionRate": 0.13045001237940634
+    "visitors": 175,
+    "sales": 1004,
+    "conversionRate": 0.14721435034662722
   },
   {
-    "visitors": 83,
+    "visitors": 189,
+    "sales": 296,
+    "conversionRate": 0.05494891315231398
+  },
+  {
+    "visitors": 174,
+    "sales": 1169,
+    "conversionRate": 0.2402510856172091
+  },
+  {
+    "visitors": 148,
     "sales": 298,
-    "conversionRate": 0.117620608496799
+    "conversionRate": 0.10883874880498245
   },
   {
-    "visitors": 55,
-    "sales": 136,
-    "conversionRate": 0.13452166313441904
+    "visitors": 200,
+    "sales": 1218,
+    "conversionRate": 0.10301413087293776
   },
   {
-    "visitors": 60,
-    "sales": 678,
-    "conversionRate": 0.04287581089802872
+    "visitors": 113,
+    "sales": 641,
+    "conversionRate": 0.15660168563808408
   },
   {
-    "visitors": 35,
-    "sales": 889,
-    "conversionRate": 0.06076191603229142
+    "visitors": 166,
+    "sales": 720,
+    "conversionRate": 0.1796875587511717
   },
   {
-    "visitors": 50,
-    "sales": 613,
-    "conversionRate": 0.047612264750770406
+    "visitors": 176,
+    "sales": 411,
+    "conversionRate": 0.2425766368974518
   },
   {
-    "visitors": 31,
-    "sales": 500,
-    "conversionRate": 0.016737561223423736
+    "visitors": 119,
+    "sales": 867,
+    "conversionRate": 0.11572542000160557
   },
   {
-    "visitors": 37,
-    "sales": 98,
-    "conversionRate": 0.10124541087338113
+    "visitors": 113,
+    "sales": 779,
+    "conversionRate": 0.06308734077466993
   },
   {
-    "visitors": 53,
-    "sales": 118,
-    "conversionRate": 0.023932739502741995
+    "visitors": 78,
+    "sales": 764,
+    "conversionRate": 0.03980935664835572
   },
   {
-    "visitors": 42,
-    "sales": 699,
-    "conversionRate": 0.013940110573496423
+    "visitors": 149,
+    "sales": 831,
+    "conversionRate": 0.03463232321016796
+  },
+  {
+    "visitors": 143,
+    "sales": 783,
+    "conversionRate": 0.006864503259823129
+  },
+  {
+    "visitors": 98,
+    "sales": 489,
+    "conversionRate": 0.15971101435155655
+  },
+  {
+    "visitors": 177,
+    "sales": 1231,
+    "conversionRate": 0.16628776459043038
+  },
+  {
+    "visitors": 75,
+    "sales": 746,
+    "conversionRate": 0.22165540598383626
+  },
+  {
+    "visitors": 70,
+    "sales": 135,
+    "conversionRate": 0.24170999918334557
+  },
+  {
+    "visitors": 75,
+    "sales": 349,
+    "conversionRate": 0.09017782358363968
+  },
+  {
+    "visitors": 171,
+    "sales": 449,
+    "conversionRate": 0.14252109778987743
+  },
+  {
+    "visitors": 105,
+    "sales": 458,
+    "conversionRate": 0.0490131452941287
   }
 ]

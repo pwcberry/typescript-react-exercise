@@ -4,9 +4,9 @@
  *
  * Input: Number of events to generate; default is 10.
  */
-import fs from 'node:fs';
-import path from 'node:path';
-import { argv } from 'node:process';
+import fs from "node:fs";
+import path from "node:path";
+import { argv } from "node:process";
 
 const DEST_FILE = path.join(import.meta.dirname, "../src/data/live-stream.json");
 
@@ -29,12 +29,12 @@ const result = [];
 
 for (let i = 0; i < MAX_EVENTS; i++) {
     result.push({
-        visitors: getRandomInt(100, 20),
-        sales: getRandomInt(1000, 50),
-        conversionRate: getRandomPercentage(0.005, 0.15),
+        visitors: getRandomInt(201, 50),
+        sales: getRandomInt(1501, 90),
+        conversionRate: getRandomPercentage(0.005, 0.25),
     });
 }
 
 fs.writeFileSync(DEST_FILE, JSON.stringify(result, null, 2));
 
-console.log('Data generated.');
+console.log("Data generated.");
