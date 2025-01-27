@@ -11,6 +11,14 @@ const currencyFormatter = new Intl.NumberFormat("en-US", {
     maximumFractionDigits: 2,
 });
 
+function padZero(num: number) {
+    return num.toString().padStart(2, "0");
+}
+
+export function formatTimestamp(value: Date): string {
+    return `${padZero(value.getHours())}:${padZero(value.getMinutes())}:${padZero(value.getSeconds())}`;
+}
+
 export function formatCurrency(value: number): string {
     return currencyFormatter.format(value);
 }

@@ -8,4 +8,5 @@ export type MetricEvent = {
     visitors: number;
     sales: number;
     conversionRate: number;
+    timestamp?: string;
 }

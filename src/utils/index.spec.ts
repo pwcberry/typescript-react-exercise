@@ -1,5 +1,5 @@
 import {describe, expect, it} from "vitest";
-import {formatCurrency, formatPercent, getMargin} from "./index";
+import {formatCurrency, formatPercent, formatTimestamp, getMargin} from "./index";
 
 describe("utils", () => {
     describe("getMargin", () => {
@@ -55,6 +55,14 @@ describe("utils", () => {
             const value = 1234.56;
             const result = formatCurrency(value);
             expect(result).toBe("$1,234.56");
+        });
+    });
+
+    describe("formatTimestamp", () => {
+        it("renders the timestamp", () => {
+           const date = new Date(2025, 0, 26, 15, 5, 0);
+           const result = formatTimestamp(date);
+           expect(result).toBe("15:05:00");
         });
     });
 });
