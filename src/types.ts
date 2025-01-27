@@ -3,3 +3,9 @@ export type Margin = {
     percentage: number,
     isUp: boolean
 };
+
+export type MetricEvent = {
+    visitors: number;
+    sales: number;
+    conversionRate: number;
+}

@@ -1,36 +1,56 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import {useState, useReducer, useEffect} from "react";
+import MetricPanel from "./components/MetricPanel";
+import {MetricEvent} from "./types.ts";
+import {consumeEvent} from "./services/api.ts";
+import Icon from "./components/Icon";
+import logo from "./assets/logo.svg";
 import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
+const DEFAULT_EVENT: MetricEvent = {
+    visitors: 10,
+    sales: 10,
+    conversionRate: 0.1,
+};
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
-  );
+type ReducerAction = {
+    type: string;
+    newState: MetricEvent;
+}
+
+const reducer = (state: MetricEvent, action: ReducerAction) => {
+    if (action.type === "update") {
+        return action.newState;
+    }
+    return state;
+};
+
+function App() {
+    const [previousEvent, dispatch] = useReducer(reducer, DEFAULT_EVENT);
+    const [metricEvent, setMetricEvent] = useState<MetricEvent>(DEFAULT_EVENT);
+
+    useEffect(() => {
+        const id = setTimeout(() => {
+            const event = consumeEvent();
+            dispatch({type: "update", newState: metricEvent});
+            setMetricEvent(event);
+        }, 1000);
+        return () => clearInterval(id);
+    }, [metricEvent]);
+
+    return (
+        <main>
+            <header>
+                <a href="https://zerocap.com" target="_blank" rel="noreferrer">
+                    <img src={logo} className="logo" alt="Vite logo"/>
+                </a>
+                <h1>Real-time Analytics Dashboard</h1>
+                <span className="text-green-800"><Icon id="pulse"/>{"Connected"}</span>
+            </header>
+            <MetricPanel value={metricEvent.visitors} previousValue={previousEvent.visitors} title="Visitors"/>
+            <MetricPanel value={metricEvent.sales} previousValue={previousEvent.sales} title="Sales"/>
+            <MetricPanel value={metricEvent.conversionRate} previousValue={previousEvent.conversionRate} displayType="percent" title="Conversion Rate"/>
+        </main>
+    );
 }
 
 export default App;
