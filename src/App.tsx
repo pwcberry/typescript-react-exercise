@@ -39,15 +39,15 @@ function App() {
 
     return (
         <main>
-            <header>
-                <a href="https://zerocap.com" target="_blank" rel="noreferrer">
+            <header className="header mb-8">
+                <a href="https://zerocap.com" target="_blank" rel="noreferrer" className="inline-block mr-2">
                     <img src={logo} className="logo" alt="Vite logo"/>
                 </a>
-                <h1>Real-time Analytics Dashboard</h1>
-                <span className="text-green-800"><Icon id="pulse"/>{"Connected"}</span>
+                <h1 className="text-3xl font-bold">Real-time Analytics Dashboard</h1>
+                <span className="text-green-400 ml-auto"><Icon id="pulse" className="icon-inline icon-sm"/>{"Connected"}</span>
             </header>
             <MetricPanel value={metricEvent.visitors} previousValue={previousEvent.visitors} title="Visitors"/>
-            <MetricPanel value={metricEvent.sales} previousValue={previousEvent.sales} title="Sales"/>
+            <MetricPanel value={metricEvent.sales} previousValue={previousEvent.sales} displayType="currency" title="Sales"/>
             <MetricPanel value={metricEvent.conversionRate} previousValue={previousEvent.conversionRate} displayType="percent" title="Conversion Rate"/>
         </main>
     );

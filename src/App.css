@@ -1,10 +1,52 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin-inline: auto;
+  min-width: 100%;
   padding: 2rem;
 }
 
-.icon {
+.logo {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.margin-view {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.icon-margin {
+  margin-left: 0.25rem;
+  margin-top: 0.33rem;
+}
+
+.icon-inline {
+  display: inline-block;
+}
+
+.icon-xs {
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.icon-sm {
+  width: 0.875em;
+  height: 0.875em;
+}
+
+.icon-md {
   width: 24px;
   height: 24px;
 }
+
+

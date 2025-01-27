@@ -20,7 +20,7 @@ describe("MarginView", () => {
         it("displays green text", () => {
             const { container } = render(<MarginView margin={INPUT}/>);
             const { firstChild: element } = container;
-            expect((element! as Element).className).toContain("text-green-500");
+            expect((element! as Element).className).toContain("text-green-600");
         });
 
         it("displays an up arrow icon", () => {

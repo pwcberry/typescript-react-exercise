@@ -1,3 +1,6 @@
+/**
+ * This is a mock service that would normally have a connection to a back-end service
+ */
 import data from "../data/live-stream.json";
 
 const LIMIT = data.length;

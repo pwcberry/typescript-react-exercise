@@ -5,6 +5,16 @@ const percentageFormatter = new Intl.NumberFormat("en", {
     maximumFractionDigits: 2,
 });
 
+const currencyFormatter = new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    maximumFractionDigits: 2,
+});
+
+export function formatCurrency(value: number): string {
+    return currencyFormatter.format(value);
+}
+
 export function formatPercent(value: number): string {
     return percentageFormatter.format(value);
 }
